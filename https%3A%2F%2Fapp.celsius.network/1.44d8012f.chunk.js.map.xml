@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="1.44d8012f.chunk.js.map" path="/45/static/js/1.44d8012f.chunk.js.map" id="a46ccfd6-581e-4914-8cec-a4c001beb46e" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="1.44d8012f.chunk.js.map" path="/45/static/js/1.44d8012f.chunk.js.map" id="a46ccfd6-581e-4914-8cec-a4c001beb46e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="a46ccfd6-581e-4914-8cec-a4c001beb46efileName">1.44d8012f.chunk.js.map</con:setting>
   </con:settings>
@@ -10,6 +10,10 @@
     <con:request name="Request 1" id="524f5621-a3a8-4fa7-b130-fa5109cda1f9" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://app.celsius.network</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

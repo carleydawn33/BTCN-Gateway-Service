@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="cce66037-1185-4c51-ab76-bdfe44e7c771" created="3.30.0" activeEnvironment="Default environment" name="REST Project 1" compositeProjectFormat="1.3" updated="3.30.0" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+<con:soapui-project id="cce66037-1185-4c51-ab76-bdfe44e7c771" created="3.30.0" activeEnvironment="Default environment" name="REST Project 1" compositeProjectFormat="1.3" updated="3.30.0" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="cce66037-1185-4c51-ab76-bdfe44e7c771fileName">REST-Project-1-readyapi-project</con:setting>
+  </con:settings>
   <con:properties/>
   <con:wssContainer/>
   <con:databaseConnectionContainer>
@@ -15,7 +17,6 @@
   <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
-  <con:reporting/>
   <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
     <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to ReadyAPI functional tests
