@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="01c06635-c5fb-40a8-a98e-a25efa1c4b57" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Test Case" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="01c06635-c5fb-40a8-a98e-a25efa1c4b57fileName">Test-Case</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Request 1" id="bebedacc-93af-4cc1-a6cc-000f81521e35">
+    <con:settings/>
+    <con:config service="http://app.celsuis.network" resourcePath="" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="bc38d536-fdd7-4d48-a25e-afbbefa89047" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>http://app.celsuis.network</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 2" id="530ca763-239f-4d5a-86ba-f4398c46079d">
+    <con:settings/>
+    <con:config service="http://login.celsuis.network" resourcePath="" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 2" id="28ae63cf-a40a-4021-8143-d313d16e9612" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>http://login.celsuis.network</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 3" id="5da28ec8-5e7a-432b-a79a-330d7ad575d5">
+    <con:settings/>
+    <con:config service="https://app.celsius.network" resourcePath="/portfolio" methodName="Portfolio" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 3" id="4c5a7b16-2d96-4e98-a0a3-0a5f5d485722" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>https://app.celsius.network</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 4" id="0227c144-620f-4e43-b00b-dd3f101d29f5">
+    <con:settings/>
+    <con:config service="https://bf56798nlj.bf.dynatrace.com" resourcePath="/bf" methodName="Bf" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 4" id="88bb192b-80ab-4164-9780-2d979ce74732" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>https://bf56798nlj.bf.dynatrace.com</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters>
+          <con:entry key="flavor" value="cors"/>
+          <con:entry key="app" value="8c5cf88533f41520"/>
+          <con:entry key="svrid" value="6"/>
+          <con:entry key="vi" value="LCEKMHWOAUAWMPSJUDCIWSGCSQURTMMP-0"/>
+          <con:entry key="modifiedSince" value="1645766350511"/>
+          <con:entry key="rf" value="https://app.celsius.network/portfolio"/>
+          <con:entry key="crc" value="3794340962"/>
+          <con:entry key="en" value="0q285p0u"/>
+          <con:entry key="end" value="1"/>
+          <con:entry key="sn" value="v_4_srv_6_sn_JNTTBHQC08PF5UVSPLH28JPNJ5GMGRU1_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0"/>
+          <con:entry key="type" value="js3"/>
+          <con:entry key="bp" value="3"/>
+        </con:parameters>
+        <con:parameterOrder>
+          <con:entry>type</con:entry>
+          <con:entry>sn</con:entry>
+          <con:entry>svrid</con:entry>
+          <con:entry>flavor</con:entry>
+          <con:entry>vi</con:entry>
+          <con:entry>modifiedSince</con:entry>
+          <con:entry>rf</con:entry>
+          <con:entry>bp</con:entry>
+          <con:entry>app</con:entry>
+          <con:entry>crc</con:entry>
+          <con:entry>en</con:entry>
+          <con:entry>end</con:entry>
+        </con:parameterOrder>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 5" id="3a7014a0-f924-4c43-b4f9-ffdd363d8e4e">
+    <con:settings/>
+    <con:config service="https://js-cdn.dynatrace.com" resourcePath="/jstag/145e12d594f/ruxitagent_A237QVfqrtux_10233220201140653.js" methodName="Ruxitagent_A237QVfqrtux_10233220201140653.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 5" id="beeb7f55-94f6-4017-9973-4160c06f76cc" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>https://js-cdn.dynatrace.com</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 6" id="cc17861f-14e9-4f80-ad5f-a3a4c1311ed0">
+    <con:settings/>
+    <con:config service="https://app.celsius.network" resourcePath="/45/static/js/1.44d8012f.chunk.js.map" methodName="1.44d8012f.chunk.js.map" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 6" id="524f5621-a3a8-4fa7-b130-fa5109cda1f9" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>https://app.celsius.network</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 7" id="6360e218-f246-43cf-94b2-5558d5cbf68c">
+    <con:settings/>
+    <con:config service="https://app.celsius.network" resourcePath="/45/static/js/3.852efcc5.chunk.js.map" methodName="3.852efcc5.chunk.js.map" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 7" id="b308668b-235d-4ec2-80f6-7dd7a9d96438" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>https://app.celsius.network</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 8" id="b4d79115-51a2-4b83-ba55-c6a5508135a9">
+    <con:settings/>
+    <con:config service="https://app.celsius.network" resourcePath="/45/static/js/28.d2a2630e.chunk.js" methodName="28.d2a2630e.chunk.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 8" id="2d02ab43-757d-42e2-8679-147832545e3e" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>https://app.celsius.network</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 9" id="09bdd793-58fe-42aa-a007-839318924b95">
+    <con:settings/>
+    <con:config service="https://clientstream.launchdarkly.com" resourcePath="/eval/6112aaca4593c04255b91b4d/eyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFlYzUwMmUwLTY1ODctMTFlYy1hZmQ5LWIxOTMzNzc3OThkNCJ9" methodName="EyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFlYzUwMmUwLTY1ODctMTFlYy1hZmQ5LWIxOTMzNzc3OThkNCJ9" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 9" id="1ca8a34d-b1e0-4880-b225-bd65d6c97115" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>https://clientstream.launchdarkly.com</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

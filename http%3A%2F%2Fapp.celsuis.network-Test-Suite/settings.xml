@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="5cdcfe52-8c07-4c74-b73c-6d6ca40a1804" name="http://app.celsuis.network Test Suite" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="5cdcfe52-8c07-4c74-b73c-6d6ca40a1804fileName">http%3A%2F%2Fapp.celsuis.network-Test-Suite</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

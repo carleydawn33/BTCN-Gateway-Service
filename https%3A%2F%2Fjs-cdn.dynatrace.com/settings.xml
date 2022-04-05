@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="d0e4e3a3-95e9-42a4-902f-050c26af80cb" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://js-cdn.dynatrace.com" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="d0e4e3a3-95e9-42a4-902f-050c26af80cbfileName">https%3A%2F%2Fjs-cdn.dynatrace.com</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>https://js-cdn.dynatrace.com</con:endpoint>
+  </con:endpoints>
+</con:interface>

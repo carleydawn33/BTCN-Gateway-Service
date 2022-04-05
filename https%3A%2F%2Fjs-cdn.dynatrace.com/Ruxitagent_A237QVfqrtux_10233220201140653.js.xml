@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Ruxitagent_A237QVfqrtux_10233220201140653.js" path="/jstag/145e12d594f/ruxitagent_A237QVfqrtux_10233220201140653.js" id="4ba4fb3a-2259-4278-a524-2803f5ca26b1" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="4ba4fb3a-2259-4278-a524-2803f5ca26b1fileName">Ruxitagent_A237QVfqrtux_10233220201140653.js</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Ruxitagent_A237QVfqrtux_10233220201140653.js" id="7ef35d04-ddeb-41b9-b77a-06dc64e99ae3" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="beeb7f55-94f6-4017-9973-4160c06f76cc" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://js-cdn.dynatrace.com</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

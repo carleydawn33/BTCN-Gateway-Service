@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="c4c03306-6c47-4053-a715-24fb38b77f4f" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://clientstream.launchdarkly.com" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="c4c03306-6c47-4053-a715-24fb38b77f4ffileName">https%3A%2F%2Fclientstream.launchdarkly.com</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>https://clientstream.launchdarkly.com</con:endpoint>
+  </con:endpoints>
+</con:interface>

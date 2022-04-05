@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="" id="f1e1540b-8be1-42e0-8401-19b330fd3211" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="f1e1540b-8be1-42e0-8401-19b330fd3211fileName"/>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="146a43a9-adac-499e-8801-56e13d1bb410" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="bc38d536-fdd7-4d48-a25e-afbbefa89047" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://app.celsuis.network</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="28.d2a2630e.chunk.js" path="/45/static/js/28.d2a2630e.chunk.js" id="b138ce5c-a5c8-4383-868e-98ca18e18ceb" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="b138ce5c-a5c8-4383-868e-98ca18e18cebfileName">28.d2a2630e.chunk.js</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="28.d2a2630e.chunk.js" id="2f8ac332-5bd0-4ebd-bcbb-b4b66a5fc203" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="2d02ab43-757d-42e2-8679-147832545e3e" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://app.celsius.network</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

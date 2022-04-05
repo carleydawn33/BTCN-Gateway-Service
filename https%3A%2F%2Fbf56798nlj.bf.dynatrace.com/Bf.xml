@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Bf" path="/bf" id="496a7b67-c21b-4012-918a-f2f858ea38cd" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="496a7b67-c21b-4012-918a-f2f858ea38cdfileName">Bf</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Bf" id="a8559a53-857e-44ea-90eb-5deddc1938b7" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>type</con:name>
+        <con:value>js3</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>js3</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>sn</con:name>
+        <con:value>v_4_srv_6_sn_JNTTBHQC08PF5UVSPLH28JPNJ5GMGRU1_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>v_4_srv_6_sn_JNTTBHQC08PF5UVSPLH28JPNJ5GMGRU1_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>svrid</con:name>
+        <con:value>6</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>6</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>flavor</con:name>
+        <con:value>cors</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>cors</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>vi</con:name>
+        <con:value>LCEKMHWOAUAWMPSJUDCIWSGCSQURTMMP-0</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>LCEKMHWOAUAWMPSJUDCIWSGCSQURTMMP-0</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>modifiedSince</con:name>
+        <con:value>1645766350511</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1645766350511</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>rf</con:name>
+        <con:value>https://app.celsius.network/portfolio</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>https://app.celsius.network/portfolio</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>bp</con:name>
+        <con:value>3</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>3</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>app</con:name>
+        <con:value>8c5cf88533f41520</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>8c5cf88533f41520</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>crc</con:name>
+        <con:value>3794340962</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>3794340962</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>en</con:name>
+        <con:value>0q285p0u</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>0q285p0u</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>end</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:request name="Request 1" id="88bb192b-80ab-4164-9780-2d979ce74732" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://bf56798nlj.bf.dynatrace.com</con:endpoint>
+      <con:parameters>
+        <con:entry key="flavor" value="cors"/>
+        <con:entry key="app" value="8c5cf88533f41520"/>
+        <con:entry key="svrid" value="6"/>
+        <con:entry key="vi" value="LCEKMHWOAUAWMPSJUDCIWSGCSQURTMMP-0"/>
+        <con:entry key="modifiedSince" value="1645766350511"/>
+        <con:entry key="rf" value="https://app.celsius.network/portfolio"/>
+        <con:entry key="crc" value="3794340962"/>
+        <con:entry key="en" value="0q285p0u"/>
+        <con:entry key="end" value="1"/>
+        <con:entry key="sn" value="v_4_srv_6_sn_JNTTBHQC08PF5UVSPLH28JPNJ5GMGRU1_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0"/>
+        <con:entry key="type" value="js3"/>
+        <con:entry key="bp" value="3"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>type</con:entry>
+        <con:entry>sn</con:entry>
+        <con:entry>svrid</con:entry>
+        <con:entry>flavor</con:entry>
+        <con:entry>vi</con:entry>
+        <con:entry>modifiedSince</con:entry>
+        <con:entry>rf</con:entry>
+        <con:entry>bp</con:entry>
+        <con:entry>app</con:entry>
+        <con:entry>crc</con:entry>
+        <con:entry>en</con:entry>
+        <con:entry>end</con:entry>
+      </con:parameterOrder>
+    </con:request>
+  </con:method>
+</con:resource>

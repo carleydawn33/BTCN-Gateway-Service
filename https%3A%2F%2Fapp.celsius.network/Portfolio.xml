@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Portfolio" path="/portfolio" id="d6c35acf-2c9d-43d6-9141-4dd94c7c0249" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="d6c35acf-2c9d-43d6-9141-4dd94c7c0249fileName">Portfolio</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Portfolio" id="cff98ccf-60a2-474b-a8a5-307d8a68f682" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="4c5a7b16-2d96-4e98-a0a3-0a5f5d485722" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://app.celsius.network</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

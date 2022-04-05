@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="b38a68dc-023f-4888-be95-0d8926d5f6e1" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://app.celsius.network" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="b38a68dc-023f-4888-be95-0d8926d5f6e1fileName">https%3A%2F%2Fapp.celsius.network</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>https://app.celsius.network</con:endpoint>
+  </con:endpoints>
+</con:interface>

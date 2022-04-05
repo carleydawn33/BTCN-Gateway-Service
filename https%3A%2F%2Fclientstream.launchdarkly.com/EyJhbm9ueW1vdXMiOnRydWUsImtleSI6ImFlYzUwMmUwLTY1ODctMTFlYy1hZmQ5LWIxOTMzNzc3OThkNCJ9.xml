@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="EyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFlYzUwMmUwLTY1ODctMTFlYy1hZmQ5LWIxOTMzNzc3OThkNCJ9" path="/eval/6112aaca4593c04255b91b4d/eyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFlYzUwMmUwLTY1ODctMTFlYy1hZmQ5LWIxOTMzNzc3OThkNCJ9" id="bea6de39-994d-44a0-a079-0f3c7eee523c" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="bea6de39-994d-44a0-a079-0f3c7eee523cfileName">EyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFlYzUwMmUwLTY1ODctMTFlYy1hZmQ5LWIxOTMzNzc3OThkNCJ9</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="EyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFlYzUwMmUwLTY1ODctMTFlYy1hZmQ5LWIxOTMzNzc3OThkNCJ9" id="f24b9c6c-4e0e-4244-9d7d-a9e32f8e6986" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="1ca8a34d-b1e0-4880-b225-bd65d6c97115" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://clientstream.launchdarkly.com</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

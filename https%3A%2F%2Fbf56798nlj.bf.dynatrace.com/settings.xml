@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="080e30dd-54ed-4a71-b584-99d3f85ca185" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://bf56798nlj.bf.dynatrace.com" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="080e30dd-54ed-4a71-b584-99d3f85ca185fileName">https%3A%2F%2Fbf56798nlj.bf.dynatrace.com</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>https://bf56798nlj.bf.dynatrace.com</con:endpoint>
+  </con:endpoints>
+</con:interface>
