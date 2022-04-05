@@ -4,13 +4,45 @@
     <con:setting id="f1e1540b-8be1-42e0-8401-19b330fd3211fileName"/>
   </con:settings>
   <con:parameters/>
-  <con:method name="" id="146a43a9-adac-499e-8801-56e13d1bb410" method="GET">
+  <con:method name="" id="146a43a9-adac-499e-8801-56e13d1bb410" method="TRACE">
     <con:settings/>
-    <con:parameters/>
+    <con:parameters>
+      <con:parameter required="true" disableUrlEncoding="true">
+        <con:name>accounts</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <con:status>0</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <con:status>429 501</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
     <con:request name="Request 1" id="bc38d536-fdd7-4d48-a25e-afbbefa89047" mediaType="application/json">
-      <con:settings/>
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
       <con:endpoint>http://app.celsuis.network</con:endpoint>
-      <con:parameters/>
+      <con:request/>
+      <con:originalUri>http://app.celsuis.network/</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="accounts" value="all"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>accounts</con:entry>
+      </con:parameterOrder>
     </con:request>
   </con:method>
 </con:resource>
